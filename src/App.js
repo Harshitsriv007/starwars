@@ -10,7 +10,7 @@ function App() {
     <div>
       <Routes>
         <Route path="/" element={<Login />} />
-        <Route path="/starwars" element={<Navigate to="/" replace={true}/>}
+        <Route path="/starwars" element={<Navigate to="/" replace={true}/>} />
         <Route path='/planet' element={<Planet/>} />
       </Routes>
     </div>
