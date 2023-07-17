@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import { Route, Routes, redirect } from 'react-router-dom';
+import { Route, Routes, Navigate } from 'react-router-dom';
 import Login from './login';
 import Planet from './planet';
 
