@@ -12,7 +12,7 @@ const Planet = () =>
     // const data = location.state;
     const RedirectToBack = () =>
     {
-        Navigate("/");
+        Navigate("/starwars");
     }
     const datafetch = (e) =>
     {
